@@ -11,7 +11,7 @@ public class MA_Advertising extends MA{
 	 */
 	
 	public String doYourWork() {
-		return "Hi, I'm " + getFirstName() + " " + getFamilyName() + " and I'm posting a phothograph on IG!";		
+		return "Hi, I'm " + getFirstName() + " " + getFamilyName() + " and I'm posting a photograph on IG!";		
 	}
 
 }

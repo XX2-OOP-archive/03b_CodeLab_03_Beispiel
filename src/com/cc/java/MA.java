@@ -45,7 +45,7 @@ public class MA extends Person{
 	protected String getEmployedTime() {
 
 		LocalDate today = LocalDate.now();
-		int yearsPassed = today.getYear() - this.hiredYear;
+		int yearsPassed = today.getYear() - hiredYear;
 
 		String yearString = "year";
 		if (yearsPassed > 1) {yearString = "years";}
